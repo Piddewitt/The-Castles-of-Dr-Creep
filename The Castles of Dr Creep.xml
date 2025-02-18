@@ -1,0 +1,46 @@
+<NotepadPlus>
+    <Project name="data\originals\Castles of Dr Creep">
+        <Folder name="asm">
+            <File name="data\originals\The Castles of Dr Creep\asm\object.asm" />
+            <File name="data\originals\The Castles of Dr Creep\asm\creepload.asm" />
+        </Folder>
+        <Folder name="d64" />
+        <Folder name="dis">
+            <File name="data\originals\Castles of Dr Creep\dis\object.dis" />
+            <File name="Data\originals\Castles of Dr Creep\dis\creepload.dis" />
+        </Folder>
+        <Folder name="inc">
+            <Folder name="C64">
+                <File name="Data\inc\c64.MEM.asm" />
+                <File name="Data\inc\c64.VIC.asm" />
+                <File name="Data\inc\c64.CIA1.asm" />
+                <File name="Data\inc\c64.CIA2.asm" />
+                <File name="Data\inc\c64.SID.asm" />
+                <File name="Data\inc\c64.Color.asm" />
+                <File name="Data\inc\c64.CPU.ZP.asm" />
+                <File name="Data\inc\c64.BASIC.ZP.asm" />
+                <File name="Data\inc\c64.BASIC.const.asm" />
+                <File name="Data\inc\c64.BASIC.pgm.asm" />
+                <File name="Data\inc\c64.BASIC.routines.asm" />
+                <File name="Data\inc\c64.BASIC.token.asm" />
+                <File name="Data\inc\c64.KERNAL.ZP.asm" />
+                <File name="Data\inc\c64.KERNAL.API.asm" />
+                <File name="Data\inc\c64.KERNAL.const.asm" />
+                <File name="Data\inc\c64.KERNAL.routines.asm" />
+            </Folder>
+            <File name="data\originals\The Castles of Dr Creep\inc\CC_Var.asm" />
+            <File name="data\originals\The Castles of Dr Creep\inc\CC_ZPG.asm" />
+            <File name="data\originals\The Castles of Dr Creep\inc\CC_Items.asm" />
+        </Folder>
+        <Folder name="lst">
+            <File name="data\originals\Castles of Dr Creep\lst\object.lst" />
+            <File name="data\originals\Castles of Dr Creep\lst\object.err" />
+            <File name="data\originals\Castles of Dr Creep\lst\object.sym" />
+            <File name="Data\originals\Castles of Dr Creep\lst\creepload.err" />
+            <File name="Data\originals\Castles of Dr Creep\lst\creepload.lst" />
+            <File name="Data\originals\Castles of Dr Creep\lst\creepload.sym" />
+        </Folder>
+        <Folder name="prg" />
+        <Folder name="xtra" />
+    </Project>
+</NotepadPlus>
