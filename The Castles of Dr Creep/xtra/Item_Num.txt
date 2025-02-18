@@ -1,0 +1,204 @@
+$00   0   SpriteNumPlayerMoveLe_01
+$01   1   SpriteNumPlayerMoveLe_02
+$02   2   SpriteNumPlayerMoveLe_03
+
+$00       SpriteNumPlayerMovLe_Min    = SpriteNumPlayerMoveLe_01
+$03       SpriteNumPlayerMovLe_Max    = SpriteNumPlayerMoveLe_03
+
+$03   3   SpriteNumPlayerMoveRi_01
+$04   4   SpriteNumPlayerMoveRi_02
+$05   5   SpriteNumPlayerMoveRi_03
+
+$03       SpriteNumPlayerMoveRi_Min   = SpriteNumPlayerMoveRi_01
+$06       SpriteNumPlayerMoveRi_Max   = SpriteNumPlayerMoveRi_03
+
+$12  18   SpriteNumArrow_Up
+$13  19   SpriteNumArrow_Ri
+$14  20   SpriteNumArrow_Do
+$15  21   SpriteNumArrow_Le
+
+$1e  30   SpriteNumPlayerArrives_01
+$1f  31   SpriteNumPlayerArrives_02
+$20  32   SpriteNumPlayerArrives_03
+$21  33   SpriteNumPlayerArrives_04
+$22  34   SpriteNumPlayerArrives_05
+$23  35   SpriteNumPlayerArrives_06
+
+$26  38   SpriteNumPlayerSlidePole
+
+$2e  46   SpriteNumPlayerClimb_01
+$2f  47   SpriteNumPlayerClimb_02
+$30  48   SpriteNumPlayerClimb_03
+$31  49   SpriteNumPlayerClimb_04
+
+$2e       SpriteNumPlayerClimb_Min    = SpriteNumPlayerClimb_01
+$32       SpriteNumPlayerClimb_Max    = SpriteNumPlayerClimb_04
+
+$35  53   SpriteNumForceCurtain_01
+
+$39  57   SpriteNumSparkFlicker_01
+$3a  58   SpriteNumSparkFlicker_02
+$3b  59   SpriteNumSparkFlicker_03
+$3c  60   SpriteNumSparkFlicker_04
+$3d  61   SpriteNumForceCurtain_02
+
+$39  57   SpriteNumSparkFlicker_Min   = SpriteNumSparkFlicker_01
+$3d  61   SpriteNumSparkFlicker_Max   = SpriteNumSparkFlicker_04
+
+$41  65   SpriteNumForceCurtain_03
+
+$45  69   SpriteNumMummyOut_01
+$46  70   SpriteNumMummyOut_02
+$47  71   SpriteNumMummyOut_03
+$48  72   SpriteNumMummyOut_04
+$49  73   SpriteNumMummyOut_05
+$4a  74   SpriteNumMummyOut_06
+
+$45  69   SpriteNumMummyOut_Min       = SpriteNumMummyOut_01
+$4b  74   SpriteNumMummyOut_Max       = SpriteNumMummyOut_06
+
+$4b  75   SpriteNumMummyMoveLe_01
+$4c  76   SpriteNumMummyMoveLe_02
+$4d  77   SpriteNumMummyMoveLe_03
+
+$4b  75   SpriteNumMummyMoveLe_Min    = SpriteNumMummyMoveLe_01
+$4e  78   SpriteNumMummyMoveLe_Max    = SpriteNumMummyMoveLe_03
+
+$4e  78   SpriteNumMummyMoveRi_01
+$4f  79   SpriteNumMummyMoveRi_02
+$50  80   SpriteNumMummyMoveRi_03
+
+$4e  78   SpriteNumMummyMoveRi_Min    = SpriteNumMummyMoveRi_01
+$51  81   SpriteNumMummyMoveRi_Max    = SpriteNumMummyMoveRi_03
+
+$6c 108   SpriteNumRayGunBeam
+
+$84 132   SpriteNumFrankMoveRi_01
+$85 133   SpriteNumFrankMoveRi_02
+$86 134   SpriteNumFrankMoveRi_03
+
+$84 132   SpriteNumFrankMoveRi_Min    = SpriteNumFrankMoveRi_01
+$87 135   SpriteNumFrankMoveRi_Max    = SpriteNumFrankMoveRi_03
+
+$87 135   SpriteNumFrankMoveLe_01
+$88 136   SpriteNumFrankMoveLe_02
+$89 137   SpriteNumFrankMoveLe_03
+
+$87 135   SpriteNumFrankMoveLe_Min    = SpriteNumFrankMoveLe_01
+$89 138   SpriteNumFrankMoveLe_Max    = SpriteNumFrankMoveLe_03
+
+$8a 138   SpriteNumFrankSlidePole
+
+$8b 139   SpriteNumFrankClimb_01
+$8c 140   SpriteNumFrankClimb_02
+$8d 141   SpriteNumFrankClimb_03
+$8e 142   SpriteNumFrankClimb_04
+
+$8b 139   SpriteNumFrankClimb_Min     = SpriteNumFrankClimb_01
+$8f 143   SpriteNumFrankClimb_Max     = SpriteNumFrankClimb_04
+
+$8f 143   SpriteNumFrankInCoffin
+
+$97  151  SpriteNumPlayerWaves_01
+$97  151  SpriteNumPlayerWaves_03
+$98  152  SpriteNumPlayerWaves_02
+$99  153  SpriteNumPlayerWaves_04
+
+$97  151  SpriteNumPlayerWaves_Min    = SpriteNumPlayerWaves_01
+$9a  154  SpriteNumPlayerWaves_Max    = SpriteNumPlayerWaves_04
+--------------------------------------------------------------------------------------------------
+$06    6  ItemNum_DoorNormal
+$07    7  ItemNum_DoorGrate
+$08    8  ItemNum_DoorOpen            type 0 - with color info
+$09    9  ItemNum_DoorBell            type 0
+$0a   10  ItemNum_MapRoomFill         type 0
+$0b   11  ItemNum_MapRoomWall_NS      type 1 - no color info
+$0c   12  ItemNum_MapRoomWall_W       type 1
+$0d   13  ItemNum_MapRoomWall_E       type 1
+$0e   14  ItemNum_MapRoomDoorLe_NS
+$0f   15  ItemNum_MapRoomDoorRi_NS
+$10   16  ItemNum_MapRoomDoorLe_EW
+$11   17  ItemNum_MapRoomDoorRi_EW
+$16   22  ItemNum_RoomGraphic         type 0
+$1b   27  ItemNum_FloorStart
+$1c   28  ItemNum_Floor               type 0 type 1
+$1d   29  ItemNum_FloorEnd            type 0
+$24   36  ItemNum_Pole                type 0
+$25   37  ItemNum_PoleEnd             type 1
+$27   39  ItemNum_PoleFront           type 0
+$28   40  ItemNum_Ladder              type 0
+$29   41  ItemNum_LadderEnd           type 0
+$2a   42  ItemNum_LadderEndCover      type 1
+$2b   43  ItemNum_LadderTop           type 0
+$2c   44  ItemNum_LadderFloor         type 0
+$2d   45  ItemNum_LadderFloorCover    type 1
+$32   50  ItemNum_LightMachPole       type 0
+$33   51  ItemNum_LightMachOrb        type 0
+$34   52  ItemNum_LightMachPoleOn     type 0
+$36   54  ItemNum_LightMachSwitch     type 0
+$37   55  ItemNum_LightMachSwitch_Up  type 0
+$38   56  ItemNum_LightMachSwitch_Do
+$3e   62  ItemNum_ForceFieldHead      type 0
+$3f   63  ItemNum_ForceFieldSwitch    type 0
+$40   64  ItemNum_ForceFieldTimer     type 0
+$42   66  ItemNum_MummyWall           type 0 type 1
+$43   67  ItemNum_MummyTombOpen       type 0
+$44   68  ItemNum_MummyAnkh           type 0
+$51   81  ItemNum_KeyTab
+$51   81  ItemNum_KeyWhite
+$52   82  ItemNum_KeyRed
+$53   83  ItemNum_KeyCyan
+$54   84  ItemNum_KeyPurple
+$55   85  ItemNum_KeyGreen
+$56   86  ItemNum_KeyBlue
+$57   87  ItemNum_KeyYellow
+$58   88  ItemNum_Lock                type 0
+$5f   95  ItemNum_GunPole_Le          type 0
+$60   96  ItemNum_GunPole_Ri          type 0
+$61   97  ItemNum_GunMovRiMin
+$61   97  ItemNum_GunMove_Ri_01       type 0
+$62   98  ItemNum_GunMove_Ri_02       type 0
+$63   99  ItemNum_GunMove_Ri_03       type 0
+$64  100  ItemNum_GunMovRiMax
+$64  100  ItemNum_GunMove_Ri_04       type 0
+$65  101  ItemNum_GunMovLeMin
+$65  101  ItemNum_GunMove_Le_01       type 0
+$66  102  ItemNum_GunMove_Le_02       type 0
+$67  103  ItemNum_GunMove_Le_03       type 0
+$68  104  ItemNum_GunMovLeMax
+$68  104  ItemNum_GunMove_Le_04       type 0
+$6d  109  ItemNum_GunSwitch           type 0
+$6e  110  ItemNum_GunSwitchColor      type 0
+$6f  111  ItemNum_XmitBooth           type 0
+$70  112  ItemNum_XmitBoothFront      type 0
+$71  113  ItemNum_XmitBoothBack       type 0
+$72  114  ItemNum_XmitTargetDot       type 0
+$73  115  ItemNum_TrapMov_Min                 
+$73  115  ItemNum_TrapMove_01                 trap open step #5 - fully open
+$74  116  ItemNum_TrapMove_02                 trap open step #4
+$75  117  ItemNum_TrapMove_03                 trap open step #3
+$76  118  ItemNum_TrapMove_04                 trap open step #2
+$77  119  ItemNum_TrapMove_05                 trap open step #1
+$78  120  ItemNum_TrapMove_06                 trap fully closed
+$78  120  ItemNum_TrapMov_Max
+$79  121  ItemNum_TrapMoveBase        type 0
+$7a  122  ItemNum_TrapSwitch          type 0
+$7b  123  ItemNum_TrapOpen            type 1
+$7c  124  ItemNum_Blank               type 1
+$7d  125  ItemNum_SideWalkBlank       type 1
+$7e  126  ItemNum_SideWalkMov_Min
+$7e  126  ItemNum_SideWalkMove_01     type 0
+$7f  127  ItemNum_SideWalkMove_02     type 0
+$80  128  ItemNum_SideWalkMove_03     type 0
+$81  129  ItemNum_SideWalkMov_Max
+$81  129  ItemNum_SideWalkMove_04     type 0
+$82  130  ItemNum_SideWalkSwitch      type 0
+$83  131  ItemNum_SideWalkHotSpot     type 0
+$90  144  ItemNum_FrankCoffin_Ri      type 0
+$91  145  ItemNum_FrankCoffin_Le      type 0
+$92  146  ItemNum_FrankCoffinFloor    type 1
+$93  147  ItemNum_TimeFrame           type 0
+$94  148  ItemNum_CharClear           type 1
+$95  149  ItemNum_Char                type 0
+$96  150  ItemNum_DoorExit
+--------------------------------------------------------------------------------------------------
